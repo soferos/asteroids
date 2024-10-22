@@ -12,10 +12,10 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
-        for event in pygame.event.get():
+        
     
-            screen.fill((0,0,0))
-            pygame.display.update()
+        screen.fill((0,0,0))
+        pygame.display.update()
 
 if __name__ == "__main__":
     main()
